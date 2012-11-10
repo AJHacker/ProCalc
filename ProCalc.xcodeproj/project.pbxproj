@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F204CCF164DE5F60098B3F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F204CCE164DE5F60098B3F9 /* UIKit.framework */; };
+		5F204CD1164DE5F60098B3F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F204CD0164DE5F60098B3F9 /* Foundation.framework */; };
+		5F204CD3164DE5F60098B3F9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F204CD2164DE5F60098B3F9 /* CoreGraphics.framework */; };
+		5F204CD9164DE5F60098B3F9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F204CD7164DE5F60098B3F9 /* InfoPlist.strings */; };
+		5F204CDB164DE5F60098B3F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F204CDA164DE5F60098B3F9 /* main.m */; };
+		5F204CDF164DE5F60098B3F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F204CDE164DE5F60098B3F9 /* AppDelegate.m */; };
+		5F204CE2164DE5F60098B3F9 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F204CE0164DE5F60098B3F9 /* MainStoryboard.storyboard */; };
+		5F204CE5164DE5F60098B3F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F204CE4164DE5F60098B3F9 /* ViewController.m */; };
+		5F204CED164DE5F70098B3F9 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F204CEC164DE5F70098B3F9 /* SenTestingKit.framework */; };
+		5F204CEE164DE5F70098B3F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F204CCE164DE5F60098B3F9 /* UIKit.framework */; };
+		5F204CEF164DE5F70098B3F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F204CD0164DE5F60098B3F9 /* Foundation.framework */; };
+		5F204CF7164DE5F70098B3F9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F204CF5164DE5F70098B3F9 /* InfoPlist.strings */; };
+		5F204CFA164DE5F70098B3F9 /* ProCalcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F204CF9164DE5F70098B3F9 /* ProCalcTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F204CF0164DE5F70098B3F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F204CC1164DE5F60098B3F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F204CC9164DE5F60098B3F9;
+			remoteInfo = ProCalc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5F204CCA164DE5F60098B3F9 /* ProCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F204CCE164DE5F60098B3F9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5F204CD0164DE5F60098B3F9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5F204CD2164DE5F60098B3F9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5F204CD6164DE5F60098B3F9 /* ProCalc-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProCalc-Info.plist"; sourceTree = "<group>"; };
+		5F204CD8164DE5F60098B3F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5F204CDA164DE5F60098B3F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5F204CDC164DE5F60098B3F9 /* ProCalc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ProCalc-Prefix.pch"; sourceTree = "<group>"; };
+		5F204CDD164DE5F60098B3F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5F204CDE164DE5F60098B3F9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5F204CE1164DE5F60098B3F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		5F204CE3164DE5F60098B3F9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5F204CE4164DE5F60098B3F9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5F204CEB164DE5F70098B3F9 /* ProCalcTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProCalcTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F204CEC164DE5F70098B3F9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5F204CF4164DE5F70098B3F9 /* ProCalcTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProCalcTests-Info.plist"; sourceTree = "<group>"; };
+		5F204CF6164DE5F70098B3F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5F204CF8164DE5F70098B3F9 /* ProCalcTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProCalcTests.h; sourceTree = "<group>"; };
+		5F204CF9164DE5F70098B3F9 /* ProCalcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProCalcTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F204CC7164DE5F60098B3F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F204CCF164DE5F60098B3F9 /* UIKit.framework in Frameworks */,
+				5F204CD1164DE5F60098B3F9 /* Foundation.framework in Frameworks */,
+				5F204CD3164DE5F60098B3F9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F204CE7164DE5F70098B3F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F204CED164DE5F70098B3F9 /* SenTestingKit.framework in Frameworks */,
+				5F204CEE164DE5F70098B3F9 /* UIKit.framework in Frameworks */,
+				5F204CEF164DE5F70098B3F9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F204CBF164DE5F60098B3F9 = {
+			isa = PBXGroup;
+			children = (
+				5F204CD4164DE5F60098B3F9 /* ProCalc */,
+				5F204CF2164DE5F70098B3F9 /* ProCalcTests */,
+				5F204CCD164DE5F60098B3F9 /* Frameworks */,
+				5F204CCB164DE5F60098B3F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F204CCB164DE5F60098B3F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F204CCA164DE5F60098B3F9 /* ProCalc.app */,
+				5F204CEB164DE5F70098B3F9 /* ProCalcTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F204CCD164DE5F60098B3F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F204CCE164DE5F60098B3F9 /* UIKit.framework */,
+				5F204CD0164DE5F60098B3F9 /* Foundation.framework */,
+				5F204CD2164DE5F60098B3F9 /* CoreGraphics.framework */,
+				5F204CEC164DE5F70098B3F9 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5F204CD4164DE5F60098B3F9 /* ProCalc */ = {
+			isa = PBXGroup;
+			children = (
+				5F204CDD164DE5F60098B3F9 /* AppDelegate.h */,
+				5F204CDE164DE5F60098B3F9 /* AppDelegate.m */,
+				5F204CE0164DE5F60098B3F9 /* MainStoryboard.storyboard */,
+				5F204CE3164DE5F60098B3F9 /* ViewController.h */,
+				5F204CE4164DE5F60098B3F9 /* ViewController.m */,
+				5F204CD5164DE5F60098B3F9 /* Supporting Files */,
+			);
+			path = ProCalc;
+			sourceTree = "<group>";
+		};
+		5F204CD5164DE5F60098B3F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F204CD6164DE5F60098B3F9 /* ProCalc-Info.plist */,
+				5F204CD7164DE5F60098B3F9 /* InfoPlist.strings */,
+				5F204CDA164DE5F60098B3F9 /* main.m */,
+				5F204CDC164DE5F60098B3F9 /* ProCalc-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5F204CF2164DE5F70098B3F9 /* ProCalcTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F204CF8164DE5F70098B3F9 /* ProCalcTests.h */,
+				5F204CF9164DE5F70098B3F9 /* ProCalcTests.m */,
+				5F204CF3164DE5F70098B3F9 /* Supporting Files */,
+			);
+			path = ProCalcTests;
+			sourceTree = "<group>";
+		};
+		5F204CF3164DE5F70098B3F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F204CF4164DE5F70098B3F9 /* ProCalcTests-Info.plist */,
+				5F204CF5164DE5F70098B3F9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F204CC9164DE5F60098B3F9 /* ProCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F204CFD164DE5F70098B3F9 /* Build configuration list for PBXNativeTarget "ProCalc" */;
+			buildPhases = (
+				5F204CC6164DE5F60098B3F9 /* Sources */,
+				5F204CC7164DE5F60098B3F9 /* Frameworks */,
+				5F204CC8164DE5F60098B3F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProCalc;
+			productName = ProCalc;
+			productReference = 5F204CCA164DE5F60098B3F9 /* ProCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5F204CEA164DE5F70098B3F9 /* ProCalcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F204D00164DE5F70098B3F9 /* Build configuration list for PBXNativeTarget "ProCalcTests" */;
+			buildPhases = (
+				5F204CE6164DE5F70098B3F9 /* Sources */,
+				5F204CE7164DE5F70098B3F9 /* Frameworks */,
+				5F204CE8164DE5F70098B3F9 /* Resources */,
+				5F204CE9164DE5F70098B3F9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F204CF1164DE5F70098B3F9 /* PBXTargetDependency */,
+			);
+			name = ProCalcTests;
+			productName = ProCalcTests;
+			productReference = 5F204CEB164DE5F70098B3F9 /* ProCalcTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F204CC1164DE5F60098B3F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = AJcoder;
+			};
+			buildConfigurationList = 5F204CC4164DE5F60098B3F9 /* Build configuration list for PBXProject "ProCalc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5F204CBF164DE5F60098B3F9;
+			productRefGroup = 5F204CCB164DE5F60098B3F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F204CC9164DE5F60098B3F9 /* ProCalc */,
+				5F204CEA164DE5F70098B3F9 /* ProCalcTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F204CC8164DE5F60098B3F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F204CD9164DE5F60098B3F9 /* InfoPlist.strings in Resources */,
+				5F204CE2164DE5F60098B3F9 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F204CE8164DE5F70098B3F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F204CF7164DE5F70098B3F9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F204CE9164DE5F70098B3F9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F204CC6164DE5F60098B3F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F204CDB164DE5F60098B3F9 /* main.m in Sources */,
+				5F204CDF164DE5F60098B3F9 /* AppDelegate.m in Sources */,
+				5F204CE5164DE5F60098B3F9 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F204CE6164DE5F70098B3F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F204CFA164DE5F70098B3F9 /* ProCalcTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F204CF1164DE5F70098B3F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F204CC9164DE5F60098B3F9 /* ProCalc */;
+			targetProxy = 5F204CF0164DE5F70098B3F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5F204CD7164DE5F60098B3F9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F204CD8164DE5F60098B3F9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5F204CE0164DE5F60098B3F9 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F204CE1164DE5F60098B3F9 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		5F204CF5164DE5F70098B3F9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F204CF6164DE5F70098B3F9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F204CFB164DE5F70098B3F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5F204CFC164DE5F70098B3F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F204CFE164DE5F70098B3F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProCalc/ProCalc-Prefix.pch";
+				INFOPLIST_FILE = "ProCalc/ProCalc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5F204CFF164DE5F70098B3F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProCalc/ProCalc-Prefix.pch";
+				INFOPLIST_FILE = "ProCalc/ProCalc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5F204D01164DE5F70098B3F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ProCalc.app/ProCalc";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProCalc/ProCalc-Prefix.pch";
+				INFOPLIST_FILE = "ProCalcTests/ProCalcTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5F204D02164DE5F70098B3F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ProCalc.app/ProCalc";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProCalc/ProCalc-Prefix.pch";
+				INFOPLIST_FILE = "ProCalcTests/ProCalcTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F204CC4164DE5F60098B3F9 /* Build configuration list for PBXProject "ProCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F204CFB164DE5F70098B3F9 /* Debug */,
+				5F204CFC164DE5F70098B3F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F204CFD164DE5F70098B3F9 /* Build configuration list for PBXNativeTarget "ProCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F204CFE164DE5F70098B3F9 /* Debug */,
+				5F204CFF164DE5F70098B3F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5F204D00164DE5F70098B3F9 /* Build configuration list for PBXNativeTarget "ProCalcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F204D01164DE5F70098B3F9 /* Debug */,
+				5F204D02164DE5F70098B3F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F204CC1164DE5F60098B3F9 /* Project object */;
+}
