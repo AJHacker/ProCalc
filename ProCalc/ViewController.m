@@ -10,9 +10,16 @@
 
 @interface ViewController ()
 
+   
+
+
 @end
 
 @implementation ViewController
+-(IBAction)button1:(id)sender{
+    NSString *curvalue = [Hello];
+}
+
 
 - (void)viewDidLoad
 {
@@ -22,13 +29,10 @@
 
 - (void)viewDidUnload
 {
+    button1 = nil;
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
 
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
-    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
-}
 
 @end
